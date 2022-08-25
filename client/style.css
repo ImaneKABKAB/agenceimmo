@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color:#00c4cc;
+    line-height: 75px;
+    padding:0px 100px;
+    position: fixed;
+    z-index: 1;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+nav .logo p{
+    float: left;
+    color: white;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+nav ul li a:hover{
+    color: #c0d96f;
+}
+nav ul li .active{
+    color: #c0d96f;
+}
+.footer{
+    min-height: 100px;
+    width: 100%;
+    background-color: #00c4cc;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50%;
+}
+.copy{
+font-size: 15px;
+float: left;
+text-align: center;
+padding-left: 30px;
+padding-top: 45px;
+}
+.about{
+    font-size: 15px;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.contact ul{
+    float: right;
+    padding-left: 180px;
+    padding-top: 2%;
+}
+.contact ul li{
+    list-style: none;
+    font-size: 15px;
+}
+.contact ul li a{
+    text-decoration: none;
+    color: #c0d96f;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: gap 30px;
+    margin-left: 70px ;
+    margin-top:85px ;
+}
+.image img{
+width: 300px;
+height: 300px;
+border-radius: 5%;
+}
+.ech{
+   display: flex;
+   justify-content: space-between;
+    margin-left:10px ;
+    margin-top:75px ;
+}
+.ech .photo img{
+        width: 500px;
+        height: 200px;
+        border-radius: 5%;
+}
+.ech .info{
+    margin-right: 200px;
+}
+.container{
+    margin-top: 120px;
+
+}
