@@ -33,7 +33,7 @@ CREATE TABLE `clients` (
 --CHARGEMENT DE LA TABLE CLIENTS
 INSERT INTO `clients` (`CNI`,`nom` ,`adresse`,`genre`,`mail`,`tel`) VALUES
  ('B123456','moussaoui','7,rue test','femme','aaaabbbb@gmail.com','0612345673'),
- ('F123456','kabkab','10,bd test','femme','ikabkab13@gmail.com','0689223567');
+ ('F123456','kabkab','10,bd test','femme','ikabkab13@gmail.com','0622345967');
 
 --CREATION DE LA TABLE BIENS
 CREATE TABLE `biens`(
